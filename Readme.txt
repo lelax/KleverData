@@ -1,6 +1,2 @@
-Thanks for downloading this template!
-
-Template Name: HeroBiz
-Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Ambiente di test per la creazione di un sito da proporre in sola visualizzazione privata
+ogni riferimento a persone o imprese è da ritenersi puramente casuale 
