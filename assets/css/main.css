@@ -610,13 +610,13 @@ section {
 
 @media (min-width: 992px) {
   .hero-animated .animated {
-    max-width: 45%;
+    max-width: 75%;
   }
 }
 
 @media (max-width: 991px) {
   .hero-animated .animated {
-    max-width: 60%;
+    max-width: 70%;
   }
 }
 
@@ -666,6 +666,7 @@ section {
 .hero-animated .btn-watch-video:hover i {
   color: rgba(var(--color-primary-rgb), 0.8);
 }
+
 
 @media (max-width: 640px) {
   .hero-animated h2 {
@@ -1270,6 +1271,7 @@ section {
 --------------------------------------------------------------*/
 .clients {
   padding: 0 0 60px 0;
+  
 }
 
 .clients .swiper-slide img {
