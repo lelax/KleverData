@@ -1180,6 +1180,23 @@ section {
   color: var(--color-primary);
 }
 
+.featured-services h3 {
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+
+@media (max-width: 768px) {
+  .featured-services h3 {
+    font-size: 28px;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -1193,7 +1210,7 @@ section {
   inset: -60px 0 0 -60px;
   z-index: -1;
   content: "";
-  background: url("../img/about-bg.png") top left;
+  background: url("../img/about-bg.png") bottom left;
   background-repeat: no-repeat;
 }
 
@@ -1274,7 +1291,7 @@ section {
   margin: 60px 0 0 60px;
 }
 
-.what .about-img:after {
+.what .about-img:before {
   position: absolute;
   inset: -60px 0 0 -60px;
   z-index: -1;
@@ -1288,7 +1305,7 @@ section {
     margin: 30px 0 0 30px;
   }
 
-  .what .about-img:after {
+  .what .about-img:before {
     inset: -30px 0 0 -30px;
   }
 }
